@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+*{
+  margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Ancizar Sans","sans-serif";
+    box-sizing: border-box;  
+}
+body{
+   display: flex;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(imagens/paris.png) center/cover,#777; 
+}
+
+.container{
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background: rgba(257, 257, 257, 0.1);
+    backdrop-filter: blur (9px);
+    border: 3px solid rgba(247, 78, 78, 0.5)
+}
+
+.titulo{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #cb6767;
+}
+
+.labelForm{
+  display:block;
+  text-align: left;
+  margin-top: 10px;
+  color: #000000;
+}
+.inputForm{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  background: rgba(239, 66, 66, 0.6);
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 9px;
+  outline: none;
+}
+
+::placeholder{
+  color: #ffffff;
+  font-size: 16px;
+}
+a{
+  display: block;
+  color: #ff1b1b;
+  text-decoration: none;
+  margin-top: 10px;
+}
+a:houver{
+  text-decoration: underline;
+}
+button{
+  width: 50%;
+  padding: 12px;
+  background: #d67171;
+  text-decoration: none;
+  margin:10px
+}
+button:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFF;
+  transition: 0.5s;
+}
